@@ -29,19 +29,29 @@
 		width: 100% !important
 }
 
+/* Control spacing and background colour of main menu */
 .main-navigation{
 		background-color: #c1ebf4;
 		line-height: 10px
 }
 
+/* Control spacing and main site tite */
 h1.site-title{
 	padding-bottom: 0px
 }
 
+/* Control spacing and background colour of main site title area */
 div.site-branding{
 	padding-bottom: 0px
 }
 
+/* Control spacing and background colour of main site sub-title */
 h2.site-description{
 	padding-bottom: 0px
+}
+
+/* Control alignment of cookie banner text */
+#cookie-law-info-bar{
+	text-align: left;
+	padding-left: 5px
 }
