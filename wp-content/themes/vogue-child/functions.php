@@ -11,6 +11,18 @@ function vogue_child_enqueue_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'vogue_child_enqueue_styles' );
 
+/**
+ * IM380 Enqueue custom cookie-law-info JS
+ */
+define( 'MY_CHILD_URI', get_stylesheet_directory_uri().'/' );
+
+add_action('wp_enqueue_scripts', 'mytheme_scripts');
+
+function mytheme_scripts() {
+  wp_dequeue_script( 'cookielawinfo_enqueue_frontend_scripts' );
+  wp_deregister_script( 'cookielawinfo_enqueue_frontend_scripts' );
+  wp_enqueue_script( 'cookielawinfo_enqueue_frontend_scripts',  MY_CHILD_URI . '/cookie-law-info/js/cookielawinfo.js');
+} 
 
 
 
