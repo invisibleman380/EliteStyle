@@ -1,0 +1,47 @@
+/* Selected day */
+.wc-appointments-date-picker .ui-datepicker td.ui-datepicker-current-day a,
+.wc-appointments-date-picker .ui-datepicker td.ui-datepicker-current-day a:hover {
+	background-color: #c1ebf4;
+	color: #000000;
+	opacity: 1;
+}
+
+
+/* Selected timeslot */
+.wc-appointments-appointment-form .slot-picker li.selected a,
+.wc-appointments-appointment-form .slot-picker li.selected:hover a {
+    background-color: #c1ebf4;
+    color: #000000;
+    outline-color: transparent;
+    text-decoration: none;
+}
+
+/* Allow text centre across full page width */
+.content-area {
+    width: 100% !important
+}
+
+.content-area-full {
+    width: 100% !important
+}
+
+.page-description {
+		width: 100% !important
+}
+
+.main-navigation{
+		background-color: #c1ebf4;
+		line-height: 10px
+}
+
+h1.site-title{
+	padding-bottom: 0px
+}
+
+div.site-branding{
+	padding-bottom: 0px
+}
+
+h2.site-description{
+	padding-bottom: 0px
+}
